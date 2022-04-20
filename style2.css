@@ -1,0 +1,112 @@
+body {
+     background: #FFF;
+     color: #000;
+     font-family: Arial, sans-serif;
+     font-size: 14px;
+}
+
+#header {
+	margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+	height: 180px;
+}
+ 
+#container {
+    background-color:#716dc9;
+    margin: auto auto;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+}
+ 
+#navigation {
+    background: #00FFFF;
+    width: 100%;
+    height: 50px;
+	float: left;
+}
+
+#content {
+     background: #00FFFF;
+     float: right;
+     width: 100%;
+}
+.headtext{
+	margin-bottom: 2px;
+	font-style: bold;
+	font-size: 24px;
+	color: white;
+	line-height: 150px;
+}
+.blockhead{
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.block{
+	width: 300px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.ImgBord{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.inline{
+	display: inline-block;
+	float: left;
+}
+.NameJobText{
+	font-style: bold;
+	font-size: 32px;
+	color: balck;
+	text-shadow: 2px 2px 2px black;
+}
+.DescriptJobText{
+	font-size: 21px;
+	color: white;
+	text-align: left;
+	background-color: #1E90FF;
+}
+
+ ul.menu1 {
+    list-style: none;
+    border-bottom: 1px #888899 solid;
+    padding-bottom: 10px
+  }
+
+ul.menu1 li {
+display: inline;
+margin-right: 5px
+}
+
+ul.menu1 li a {
+color: #888899;
+text-decoration: none;
+background: #f7f7f9;
+border: 1px #bbbbcc solid;
+border-bottom: none;
+padding: 10px 14px
+}
+
+ul.menu1 li a:hover {
+padding: 14px 14px 10px 14px
+}
+
+ul.menu1 li a.selected {
+color: #555566;
+background: #ffffff;
+border: 1px #888899 solid;
+border-bottom: 1px #ffffff solid;
+padding: 14px 14px 10px 14px
+}
+#center{
+	text-align: center;
+}
+#descript{
+	margin-left: 5px;
+}
